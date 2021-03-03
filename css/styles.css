@@ -1,5 +1,6 @@
 body {
     background:#eee;
+    font-family: 'Asap', sans-serif; ;
 }
 
 * {
@@ -50,8 +51,20 @@ body {
     margin-top: 2rem;
 }
 
+.nav-item1 {    font-size: 1.2rem;
+    box-shadow: 5px 5px 5px 5px #d3d3d3;
+    border-radius: 5px;
+    padding: 5%;
+    border-bottom: 3px solid orange;
+    margin: 1px;
+}
+
+
 .nav-item {
     font-size: 1.2rem;
+    box-shadow: 5px 5px 5px 5px #d3d3d3;
+    border-radius: 5px;
+    padding: 5%;
 }
 
 .page {
@@ -67,15 +80,30 @@ body {
     align-items: flex-start;
 }
 
-.content-titles {
-    width: 50%;
-    font-size: 3em;
-    margin-right: 2rem;
+.content-title {
+      max-width: 450px;
+    margin-left: auto;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 6%;
 }
 
 .content-title {
     max-width: 450px;
     margin-left: auto;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 6%;
+    font-size: -webkit-xxx-large;
+}
+
+.content-title--sub {
+    color: grey;
+    font-size: 2.7rem;
+}
+
+.content-title--main {
+    border-top: orange 3px solid;
 }
 
 .content-picture {
@@ -122,10 +150,17 @@ body {
 
 .articles-container {
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
     margin-bottom: 2rem;
+    margin-bottom: 2rem;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
 }
 
 .card-title {
@@ -150,6 +185,11 @@ body {
 .btn {
     padding: 1rem 2rem;
     font-size: 1.2em;
+    border: 3px solid orange;
+    border-radius: 73px;
+    color: orange;
+    font-weight: bold;
+
 }
 
 .footer {
@@ -157,6 +197,28 @@ body {
     padding: 4rem 2rem;
     text-align: center;
     color: #aaa;
+}
+
+.picture-desc {
+    position: relative;
+    top: -2rem;
+    color: white;
+    background: linear-gradient(black, transparent);
+
+}
+
+.content-picture-rounded {
+    margin-left: 2%;
+}
+
+.nav-item:hover {
+    background-color: orange ;
+    transition-duration: 300ms;
+}
+
+.nav-item1:hover {
+    background-color: orange ;
+    transition-duration: 300ms;
 }
 
 /*
